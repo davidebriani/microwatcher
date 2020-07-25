@@ -36,11 +36,19 @@ docker-compose --build up
 
 ### Flashing your ESP8266
 
-Be sure to have `wget` and Python + `pip` installed, then attach the ESP via USB and:
+Be sure to have `wget` and Python + `pip` installed. Optionally create a python virtualenv:
+
+```sh
+mkvirtualenv microwatcher
+```
+
+Then grab a good quality and short USB cable, attach the ESP via USB, and:
 
 ```sh
 ./flash.sh
 ```
+
+A device will be automatically selected and you will be asked to confirm it is the one to flash.
 
 ### With Docker
 

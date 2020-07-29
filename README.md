@@ -55,6 +55,6 @@ The script will try to automatically detect your device and you will be asked to
 ### With Docker
 
 ```sh
-docker -t microwatcher .
+docker build -t microwatcher .
 docker run microwatcher
 ```

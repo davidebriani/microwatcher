@@ -1,4 +1,5 @@
 .gitignore
 config.json.sample
 flash.sh
+micropython.bin
 *.md

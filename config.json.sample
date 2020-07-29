@@ -1,5 +1,6 @@
 {
   "wifiSSID": "Your WiFi SSID here",
   "wifiPassword": "Your WiFi password here",
-  "webhookURL": "https://<webhook-url>"
+  "watchURL": "https://<url-to-watch>",
+  "notifyURL": "https://<url-to-notify>"
 }
